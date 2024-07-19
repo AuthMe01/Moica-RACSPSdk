@@ -16,8 +16,8 @@ namespace tw.moica.RACSPSdk.Utils
         public static byte[] EncryptPKCS1(byte[] cert,byte[] data)
         {
             var certificate = new X509Certificate2(cert);
-
-            using (var rsa = (RSACng) certificate.PublicKey.Key)
+            
+            using (var rsa = certificate.GetRSAPublicKey())
             {
                 var encryptedData = rsa.Encrypt(data, RSAEncryptionPadding.Pkcs1); // false for PKCS#1 v1.5 padding
                 return encryptedData;

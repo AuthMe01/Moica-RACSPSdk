@@ -1,10 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net5.0</TargetFramework>
         <RootNamespace>tw.moica.RACSPSdk</RootNamespace>
          <PackageId>tw.moica.RACSPSdk</PackageId>
          <Authors>TonyQ</Authors>
+         <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
 
     </PropertyGroup>
 
