@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>tw.moica.RACSPSdk</RootNamespace>
+         <PackageId>tw.moica.RACSPSdk</PackageId>
+         <Authors>TonyQ</Authors>
+
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.Security.Cryptography.Pkcs" Version="8.0.0" />
+    </ItemGroup>
+
+</Project>

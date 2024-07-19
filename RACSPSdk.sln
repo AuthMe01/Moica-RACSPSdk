@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RACSPSdk", "RACSPSdk\RACSPSdk.csproj", "{FEAD69CB-5169-4409-87E7-91A76FF7420E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RACSPSdkTestSamples", "RACSPSdkTestSamples\RACSPSdkTestSamples.csproj", "{5141A368-4B12-4C86-A74D-9FEFFF2804B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEAD69CB-5169-4409-87E7-91A76FF7420E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEAD69CB-5169-4409-87E7-91A76FF7420E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEAD69CB-5169-4409-87E7-91A76FF7420E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEAD69CB-5169-4409-87E7-91A76FF7420E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5141A368-4B12-4C86-A74D-9FEFFF2804B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5141A368-4B12-4C86-A74D-9FEFFF2804B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5141A368-4B12-4C86-A74D-9FEFFF2804B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5141A368-4B12-4C86-A74D-9FEFFF2804B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
