@@ -47,7 +47,7 @@ namespace RACSPSdkTestSamples.sp
             return new QueryDecryptionResultRequest()
             {
                 TransactionId = Guid.NewGuid().ToString(),
-                SpTicketId = ""
+                SpTicketId = "aaa"
             };
         }
     }
